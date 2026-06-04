@@ -13,7 +13,7 @@ def test_ingredient_eq():
     ing2 = Ingredient("Мука", 300.0, "г")
     ing3 = Ingredient("Сахар", 500.0, "г")
     ing4 = Ingredient("Мука", 500.0, "кг")
-    
+
     assert ing1 == ing2
     assert ing1 != ing3
     assert ing1 != ing4
