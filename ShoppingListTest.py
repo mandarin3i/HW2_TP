@@ -1,3 +1,5 @@
+import pytest
+from ShoppingList import ShoppingList
 def test_shopping_list_add_recipe():
     sl = ShoppingList()
     recipe = Recipe("Тесто", [Ingredient("Мука", 200.0, "г")])
